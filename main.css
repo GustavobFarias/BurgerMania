@@ -16,20 +16,21 @@ h2 {
     color: #FF4500;
 }
 
-.nav-item.active .nav-link {
+.nav-link.active, 
+.nav-link.active:hover   {
     background-color: #FF4500;
     color: #fff;
-    border-radius: 5px;
 }
 
 .icons {
     display: flex;
     align-items: center;
     cursor: pointer;
+    margin-left: 16px;
 }
 
 .icons .promo {
-    padding-left: 3px;
+    padding-left: 5px;
 }
 
 .nav-item .icon {
@@ -40,8 +41,30 @@ h2 {
     color: #FF4500;
 }
 
+.carousel-item img {
+    height: 700px;
+    object-fit: cover;
+}
+
+#sobre-a-burgermania {
+    background-color: #ffc2aa;
+    padding-bottom: 32px;
+}
+
+.cardapio {
+    margin-bottom: 2rem;
+}
+
 @media screen and (max-width: 767px) {
     .carousel-item img {
         height: 280px;
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 16px;
+    }
+    p {
+        margin-bottom: 32px;
     }
 }
