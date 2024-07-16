@@ -1,0 +1,47 @@
+header {
+    background-color: black;
+    padding: 244px;
+}
+
+header h1 {
+    font-family: "Dancing Script", cursive;
+    color: #FF4500;
+}
+
+h2 {
+    font-family: "Pacifico", cursive;
+}
+
+.text-color {
+    color: #FF4500;
+}
+
+.nav-item.active .nav-link {
+    background-color: #FF4500;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons .promo {
+    padding-left: 3px;
+}
+
+.nav-item .icon {
+    height: 22px;
+}
+
+.nav-link,.nav-link:hover {
+    color: #FF4500;
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
