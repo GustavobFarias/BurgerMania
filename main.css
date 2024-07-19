@@ -1,3 +1,7 @@
+html {
+    overflow-x: hidden;
+}
+
 header {
     background-color: black;
     padding: 244px;
@@ -157,10 +161,14 @@ i {
     }
 
     .promos-lanche {
-        height: 300px;
+        height: 250px;
     }
 
     .promos {
-        height: 500px;
+        height: 350px;
+    }
+
+    #form {
+        width: 350px;
     }
 }
