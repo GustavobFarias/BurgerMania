@@ -46,7 +46,8 @@ h2 {
     object-fit: cover;
 }
 
-#sobre-a-burgermania {
+#sobre-a-burgermania,
+#contato {
     background-color: #ffc2aa;
     padding-bottom: 32px;
 }
