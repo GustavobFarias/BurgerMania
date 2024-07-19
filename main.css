@@ -115,8 +115,8 @@ i {
 }
 
 @media screen and (max-width: 1199px) {
-    .endereco {
-        margin-left: 1px;
+    .redes {
+        margin-left: 10px;
     }
 }
 
@@ -161,7 +161,6 @@ i {
     }
 
     .promos {
-        margin-left: 40px;
         height: 500px;
     }
 }
