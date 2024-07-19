@@ -96,6 +96,30 @@ p {
     width: 500px;
 }
 
+#rede-sociais {
+    font-family: "Dancing Script", cursive;
+}
+
+i {
+    color: #FF4500;
+    padding-right: 8px;
+}
+
+#rede-sociais-link {
+    list-style: none;
+    display: flex;
+}
+
+#rede-sociais-link li a {
+    padding-right: 8px;
+}
+
+@media screen and (max-width: 1199px) {
+    .endereco {
+        margin-left: 1px;
+    }
+}
+
 @media screen and (max-width: 991px) {
     .nav {
         padding-top: 16px;
